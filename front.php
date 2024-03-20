@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Modern Login Page | AsmrProg</title>
+    <title>Login Page</title>
 </head>
 <style>
 body {
@@ -39,12 +39,7 @@ body {
         <div class="form-container sign-up">
             <form action="process_registration.php" method="post">
                 <h1>Create Account</h1>
-                <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
+                
                 <span>or use your email for registration</span>
                 <input type="text" placeholder="Name" name="name" id="name">
 
@@ -59,12 +54,7 @@ body {
         <div class="form-container sign-in">
             <form action="process_login.php" method="post">
                 <h1>Sign In</h1>
-                <div class="social-icons">
-                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
+                
                 <span>or use your email password</span>
                 <input type="email" placeholder="Email" name="email" id="email">
                 <input type="password" placeholder="Password" name="password" id="password">
