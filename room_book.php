@@ -23,7 +23,8 @@ if ($result_check_booking->num_rows > 0) {
 
     if ($conn->query($sql_book_room) === TRUE) {
         // Room booked successfully!
-        echo "<script>alert('Room booked successfully!');</script>";
+        echo "<script>alert('Room booking successful!'); setTimeout(function(){ window.location.href = 'roombooking.php';}, 3000);</script>";
+
     } else {
         // Error occurred during booking
         echo "<script>alert('Error: " . $sql_book_room . "\\n" . $conn->error . "');</script>";
