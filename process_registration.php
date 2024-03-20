@@ -15,7 +15,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             VALUES ('$name', '$email', '$password', '$gender', '$department', '$mobile_number')";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Registration successful!";
+                echo "<script>alert('Registration successful!'); setTimeout(function(){ window.location.href = 'front.php';}, 5000);</script>";
+
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
